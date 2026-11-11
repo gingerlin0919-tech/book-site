@@ -15,7 +15,7 @@
   <!-- Google Fonts: 繁體中文與經典襯線英文字型 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&display=swap" rel="stylesheet">
 
   <script>
     tailwind.config = {
@@ -34,8 +34,8 @@
             }
           },
           fontFamily: {
-            serif: ['"Noto Serif TC"', 'serif'],
-            sans: ['"Noto Sans TC"', 'sans-serif'],
+            serif: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif'],
+            sans: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif'],
             cinzel: ['"Cinzel"', 'serif'],
           }
         }
@@ -45,7 +45,7 @@
 
   <style>
     body {
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", "Heiti TC", sans-serif;
       background-color: #070709;
       color: #F4F4F5;
       overflow-x: hidden;
@@ -121,6 +121,12 @@
           「做過的事，會留在履歷；能持續創造價值的，才會成為資產。」
         </p>
 
+        <!-- 暢銷成績 -->
+        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs sm:text-sm">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#D4AF37]/10 border border-[#D4AF37]/40 text-[#E6CA75] font-bold whitespace-nowrap"><i data-lucide="award" class="w-4 h-4"></i>momo 組織管理熱銷榜第 5 名</span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#D4AF37]/10 border border-[#D4AF37]/40 text-[#E6CA75] font-bold whitespace-nowrap"><i data-lucide="trending-up" class="w-4 h-4"></i>博客來、誠品新書榜前 20</span>
+        </div>
+
         <!-- 行動呼籲單一核心按鈕（移除領指令） -->
         <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start">
           <a href="#buy-options" class="w-full sm:w-auto px-9 py-4 rounded-xl btn-gold font-black text-base shadow-[0_0_30px_rgba(212,175,55,0.4)] flex items-center justify-center gap-3 transition transform hover:scale-105">
@@ -177,7 +183,7 @@
           </div>
           <div>
             <h3 class="text-white font-bold text-base">工作多年、累積不少</h3>
-            <p class="text-zinc-400 text-sm mt-1">卻還沒有轉化為在市場上清楚可見、能夠定價的明確價值。</p>
+            <p class="text-zinc-400 text-sm mt-1">卻還沒有轉化為清楚可見、能被重用與放大的明確價值。</p>
           </div>
         </div>
 
@@ -196,8 +202,8 @@
             <i data-lucide="check" class="w-5 h-5 font-bold"></i>
           </div>
           <div>
-            <h3 class="text-white font-bold text-base">想發展第二價值曲線</h3>
-            <p class="text-zinc-400 text-sm mt-1">想在既有基礎上開創新機會，卻不知道第一步該從何有效開始。</p>
+            <h3 class="text-white font-bold text-base">想在本業創造新價值</h3>
+            <p class="text-zinc-400 text-sm mt-1">想在既有基礎上開創新的貢獻與機會，卻不知道第一步該從何有效開始。</p>
           </div>
         </div>
 
@@ -346,7 +352,7 @@
         <h2 class="text-2xl sm:text-3xl font-serif font-black text-zinc-100">
           ── 企業領袖與跨界專家共同推薦 ──
         </h2>
-        <p class="text-zinc-500 text-xs sm:text-sm">（依姓氏筆畫或推薦順序排列）</p>
+        <p class="text-zinc-500 text-xs sm:text-sm">（排名不分先後）</p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -442,7 +448,7 @@
             任職於台灣大型集團旗下關係企業，擔任經營層幕僚超過 20 年，歷任董事長特助、經營企劃主管及企業內部講師。從企業策略、人才發展到組織變動，近距離參與經營決策現場，深刻理解企業如何評估人才、配置資源與放大價值。
           </p>
           <p>
-            曾接受國際企業家導師 Dan Lok 的高價值成交與教練訓練，進一步將企業端的價值判斷，延伸至人才市場端的價值溝通；並結合 NLP（神經語言程式學），將思維、行為與價值創造之間的關係，轉化為系統化工具。
+            曾接受國際企業家導師 Dan Lok 的高價值成交與教練訓練，進一步將企業端的價值判斷，轉化為每個人都能運用的價值溝通方法；並結合 NLP（神經語言程式學），將思維、行為與價值創造之間的關係，轉化為系統化工具。
           </p>
           <p class="text-xs text-zinc-400 border-t border-zinc-800 pt-4 leading-normal">
             國立臺灣師範大學 EMBA，東吳大學日本語文學系、國際貿易學系雙學士。<br>
@@ -577,6 +583,18 @@
     </div>
   </section>
 
+  <!-- 一日工作坊入口 -->
+  <section class="py-14 sm:py-20 px-4 sm:px-8 bg-[#0B0B0E] border-t border-[#22222B]">
+    <div class="max-w-4xl mx-auto rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-[#1A160B] via-[#121217] to-[#0A0A0D] border border-[#D4AF37]/45 text-center space-y-4">
+      <span class="text-xs uppercase font-mono tracking-widest text-[#E6CA75] font-bold">FROM READING TO DOING</span>
+      <h2 class="text-2xl sm:text-3xl font-serif font-black text-white leading-snug"><span class="inline-block">讀完書，</span><span class="inline-block">想親手把資歷變成資產？</span></h2>
+      <p class="text-zinc-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto"><span class="inline-block">1/16（六）一日實戰工作坊，</span><span class="inline-block">Ginger 帶你現場盤點職涯資產，</span><span class="inline-block">完成一份回到工作崗位就能執行的 90 日行動計畫。</span><span class="inline-block">新書讀者享專屬優惠價。</span></p>
+      <a href="https://workshop.elites888.com/" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl btn-gold font-black text-base shadow-[0_0_30px_rgba(212,175,55,0.35)] transition transform hover:scale-105">
+        <i data-lucide="calendar-check" class="w-5 h-5"></i><span>了解一日工作坊</span>
+      </a>
+    </div>
+  </section>
+
   <!-- 免費電子報訂閱專區（修改標籤、文案與金色視覺） -->
   <section id="newsletter" class="py-16 sm:py-24 px-4 sm:px-8 bg-[#070709] border-t border-[#22222B] relative">
     <div class="max-w-4xl mx-auto rounded-3xl p-8 sm:p-12 bg-gradient-to-br from-[#181822] via-[#121217] to-[#0A0A0D] border-2 border-[#D4AF37]/45 shadow-2xl relative overflow-hidden">
@@ -592,13 +610,13 @@
         </div>
 
         <h2 class="text-2xl sm:text-4xl font-serif font-black text-white">
-          訂閱【每月幕僚觀察電子報】<br>
+          訂閱【幕僚觀察隨筆】<br>
           <span class="gold-gradient-text">立即獲贈《職涯資產健檢 AI 指令》</span>
         </h2>
 
         <!-- 6. 指定文字替換 (刪除老師二字) -->
         <p class="text-zinc-300 text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
-          Ginger 每月分享經營幕僚視角！免費訂閱，將於加碼寄送獨家設計的<strong class="text-[#E6CA75]">《職涯資產健檢 AI 提詞指令》</strong>至您的信箱，幫您快速盤點個人籌碼！
+          Ginger 分享經營層幕僚視角！免費訂閱，即可加碼獲得獨家設計的<strong class="text-[#E6CA75]">《職涯資產健檢 AI 提詞指令》</strong>，幫您快速盤點個人職涯資產！
         </p>
 
         <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
